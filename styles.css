@@ -1,0 +1,75 @@
+@font-face {
+    font-family: myfont;
+    src:url(./assets/fonts/static/Figtree-SemiBold.ttf);
+} 
+@font-face {
+    font-family: myfontBold;
+    src:url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+}
+body {
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 15px;
+    max-width: 350px;
+    box-shadow: 12px 12px;
+}
+.container-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+.container-img {
+    padding: 6px;
+}
+.container-body, .container-footer {
+    padding:  15px;
+}
+button {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 3px;
+    padding: 6px 18px;
+    font-family: myfontBold !important;
+    font-weight: 900;
+}
+.container-body p {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    padding-top: 15px;
+}
+.container-body h2 {
+    color: hsl(0, 0%, 7%);
+    font-weight: 900;
+    font-family: myfontBold;
+    padding-top: 10px;
+}
+.container-footer img {
+    width: 40px;
+    margin-right: 10px;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    padding-top: 25px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
